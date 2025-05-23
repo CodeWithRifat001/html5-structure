@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    label{
+      display: block;
+      /* border: 1px solid black; */
+      margin-bottom: 10px;
+
+    }
+    .button{
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header></header>
+  <main>
+    <section>
+      <form>
+        <label for="name">your name:
+          <input placeholder="your name" type="text">
+        </label>
+        <label for="email">your email:
+          <input placeholder="your email" type="email">
+        </label>
+        <label for="phone number">your phone number:
+          <input placeholder="your phone number" type="number" id="phone">
+        </label>
+        <fieldset>
+          <legend>pick one pitha</legend>
+          <label for="chitoy">
+            <input type="radio" name="chitoy" id="chitoy"> chitoy
+          </label>
+          <label for="vapa">
+            <input type="radio" name="chitoy" id="vapa">vapa
+          </label>
+          <label for="telpitha">
+            <input type="radio" name="chitoy" id="telpitha">telpitha
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>pick one or more vorta</legend>
+           <label for="sorisa">
+            <input type="checkbox" name="vorta" id="sorisa">sorisa
+           </label>
+           
+           <label for="sorse">
+            <input type="checkbox" name="vorta" id="sorse">sorse
+           </label>
+        </fieldset>
+        <input  class="button" type="reset" value="reset">
+        <input class="button" type="submit" value="submit">
+      </form>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
